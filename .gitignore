@@ -1,0 +1,4 @@
+config.json
+lastVideo.json
+node_modules/
+.env
