@@ -54,3 +54,7 @@ async function checkYouTube() {
 
 setInterval(checkYouTube, CHECK_INTERVAL);
 console.log('[DaniBot] Bot iniciado. Escaneando cada ' + CHECK_INTERVAL / 1000 + ' segundos...');
+
+console.log("🔧 ENV YOUTUBE_CHANNEL_ID:", process.env.YOUTUBE_CHANNEL_ID);
+console.log("🔧 ENV DISCORD_WEBHOOK_URL:", process.env.DISCORD_WEBHOOK_URL);
+console.log("🔧 ENV CHECK_INTERVAL:", process.env.CHECK_INTERVAL);
